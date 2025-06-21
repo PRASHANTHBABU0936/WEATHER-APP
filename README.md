@@ -21,8 +21,7 @@ Get real-time weather information for any city in the world!
 
 ---
 
-## ⚡️ Demo
-Check out the live version of the app (Add link when you host it)
+
 
 ---
 
