@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌤️ Weather App</title>
+
+    <link rel="stylesheet" href="weather.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1 class="app-title">🌤️ My Weather App</h1>
+        <header class="inputc">
+            <div class="searchbox">
+                <input class="cityinput" placeholder="Enter city name…" type="text">
+
+                <button class="sbtn"><span class="material-icons">search</span></button>
+                         </div>
+          </header>
+        <section class="weatherinfo">
+            <div class="loc">
+
+
+                <div class="location">
+                    <span class="material-icons">place</span>
+
+                    <h4 class="countrytxt">City, Country</h4>
+         
+                  </div>
+                <h5 class="currentdatetxt">Date</h5>
+            </div>
+
+            <div class="weather-main">
+                         <img class="weather-icon" src="" alt="Weather Icon" />
+            
+                         <div class="temp-condition">
+                            <h2 class="temperature">--°C</h2>
+                    <p class="condition">--</p>
+                </div>
+       
+              </div>
+
+            <div class="weather-stats">
+                <div class="stat">
+                    
+                  <span class="material-icons">water_drop</span> 
+                    Humidity: <span class="humidity">--%</span>
+                        </div>
+            
+                        <div class="stat">
+                    <span class="material-icons">air</span> 
+           
+                    Wind: <span class="wind">-- m/s</span>
+                </div>
+          
+              </div>
+       
+          </section>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

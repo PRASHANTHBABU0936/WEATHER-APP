@@ -1,0 +1,105 @@
+/* General Styles */
+* {
+
+      margin: 0;
+    padding: 0;
+            box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+     background: linear-gradient(135deg, #6dd5fa, #2980b9);
+               height: 100vh;
+         display: flex;
+         justify-content: center;
+        align-items: center;
+}
+.main {
+    width: 320px;
+         padding: 20px;
+         background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(10px);
+         border-radius: 12px;
+         text-align: center;
+     color: #333;
+}
+.app-title {
+             font-size: 24px;  font-weight: bold;
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+.inputc {
+          margin-bottom: 15px;
+}
+.searchbox {
+         position: relative;
+}
+.cityinput {
+    width: 100%;
+                     padding: 10px 40px 10px 15px;
+    font-size: 16px;
+             border-radius: 30px;
+               border: none;
+    outline: none;
+}
+.sbtn {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+                transform: translateY(-50%);
+             background: none;
+    border: none;
+    font-size: 22px;
+                cursor: pointer;
+}
+.weatherinfo {
+          padding: 10px;
+}
+.loc {
+    margin-bottom: 15px;
+}
+.location {
+                display: flex;
+    justify-content: center;
+              align-items: center;
+    font-size: 18px;
+}
+.currentdatetxt {
+    font-size: 14px;
+                 color: #555;
+}
+.weather-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weather-icon {
+    width: 100px;
+    height: 100px;
+}
+.temperature {
+    font-size: 48px;
+              font-weight: bold;
+    color: #ff6600;
+}
+.condition {
+                     font-size: 18px;
+    color: #555;
+}
+.weather-stats {
+    display: flex;
+    justify-content: space-around;
+   
+   
+   
+    font-size: 14px;
+    margin: 15px 0;
+}
+.weather-stats .stat {
+    display: flex;
+                      flex-direction: column;
+    align-items: center;
+}
+.material-icons {
+    font-size: 20px;
+    color: #0077b6;
+}
