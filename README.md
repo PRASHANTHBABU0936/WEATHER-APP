@@ -4,6 +4,8 @@ A simple and responsive **Weather App** built using **HTML**, **CSS**, and **Jav
 Get real-time weather information for any city in the world!
 
 ---
+OVERVIEW:
+![image](https://github.com/user-attachments/assets/ba20376e-9661-4310-ba88-d0bc539b0e77)
 
 ## ✨ Features
 - 🌍 **Search by city**: Get current weather conditions.
